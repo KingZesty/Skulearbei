@@ -7,14 +7,19 @@
     <script src="javascript.js"> </script>
   </head>
   <body>
-    <form action="demo_form.asp">
      Pris: <input id="pris" type="number" name="pris"><br>
-    <input type="submit" value="Submit">
-  </form>
+     <form action="demo_form.asp">
+  <input type="checkbox" id="G" name="Generell" value="Generell Sats (25%)" checked> Generell Sats (25%)<br>
+  <input type="checkbox" id="N" name="næringsmidler" value="Næringsmidler (15%)"> Næringsmidler (15%)<br>
+  <input type="checkbox" id="T" name="Transport" value="Persontransport (10%)"> Persontransport, og dvs (10%) <br>
+</form>
+    <button id="knapp" onclick="finn()">Submit</button>
+
 
     <div id="MVA"> </div>
+    <div id="MVA2"> </div>
+    <div id="MVA3"> </div>
 
-</textarea>
 
   </body>
 </html>

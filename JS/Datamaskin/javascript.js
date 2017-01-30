@@ -1,4 +1,4 @@
-function regnUt() {
+00,function regnUt() {
   var belop = parseInt(document.getElementById("belop").value);
   var rente = parseInt(document.getElementById("rente").value);
   var bpm = parseInt(document.getElementById("bpm").value);
