@@ -1,0 +1,58 @@
+
+
+body {
+  background-image: url(https://c2.staticflickr.com/4/3662/3412915702_382a6daf34_b.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size:200%;
+  color: #F5D8A7;
+  margin:0;
+}
+
+header {
+  height:450px;
+}
+
+.headimg {
+  width:84%;
+  height:450px;
+  position:absolute;
+}
+
+ h1 {
+   background-color: black;
+ }
+
+
+/* menyen */
+
+* {
+ box-sizing: border-box;
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+ }
+
+  .nav {
+     float: left;
+    position: relative;
+    top:0px;
+   }
+
+   .nav a {
+     display:block;
+     color: white;
+     text-align: center;
+     padding: 12px 20px;
+     text-decoration: none;
+   }
+
+   .nav a:hover {
+     background-color: #111;
+   }

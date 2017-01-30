@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Anton|Lobster|Passion+One';
+
+  body {
+    background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-32.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family: 'Passion One', cursive;
+    font-size:450%;
+    margin:0;
+}
+
+/* anten bli Headern mindre ellers så bli hn slekk hn æ nå, fæ ikkje fiksa d */
+
+.headimg {
+  width:auto;
+  height:auto;
+  position:absolute;
+}
+
+header {
+  height:508px;
+  width:auto;
+  background-image: images/header.jpg;
+}
+
+ h1 {
+   font-family: 'Lobster', cursive;
+  color:Black;
+  font-size:100%;
+  weight:bold;
+ }
+
+ h2 {
+   color:blue;
+   font-size:90%;
+ }
+
+ h3 {
+   color:Red;
+   font-size:90%;
+ }
+
+.main {
+}
+
+ #pepe {
+  color:White;
+  font-family: 'Anton', sans-serif;
+  font-size:60%;
+}
+
+/* Navigasjons menyen */
+
+* {
+ box-sizing: border-box;
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+ }
+
+  .nav {
+     float: left;
+    position: relative;
+    top:0px;
+   }
+
+   .nav a {
+     display:block;
+     color: white;
+     text-align: center;
+     padding: 12px 20px;
+     text-decoration: none;
+   }
+
+   .nav a:hover {
+     background-color: #111;
+   }

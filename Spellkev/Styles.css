@@ -1,0 +1,16 @@
+#value {
+   font-size:42px;
+   color:red;
+ }
+
+.button {
+  font-size:40px;
+  width:200px;
+  height:100px;
+}
+
+.upgrades {
+  font-size:30px;
+  width:200px;
+  height:100px;
+}

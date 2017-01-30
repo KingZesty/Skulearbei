@@ -1,0 +1,9 @@
+@import 'https://fonts.googleapis.com/css?family=Anton|Lobster|Passion+One';
+
+ body {
+   font-size: 50px;
+   background-image:url(https://wallpaperscraft.com/image/pacman_food_apple_22085_1920x1080.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Passion One', cursive;
+ }

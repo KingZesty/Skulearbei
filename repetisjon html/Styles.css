@@ -1,0 +1,25 @@
+header {
+  color:red;
+  font-size:40;
+}
+
+header .GG {
+  color:blue;
+}
+
+header #tekst {
+  color:Green;
+  text-decoration:underline;
+  text-decoration-color:red;
+}
+
+#boks {
+  border-width:2px;
+  border-style:solid;
+  width:200px;
+  height: :200px;
+}
+
+ .overskrift {
+ text-decoration:line-through;
+}

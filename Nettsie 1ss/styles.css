@@ -1,0 +1,73 @@
+ .sko {
+color:blue;
+font-size:36px;
+background-color:black;
+}
+
+ .jump {
+  color:red;
+  font-size:36px;
+  background-color:black;
+}
+
+ .p {
+   color:red;
+   font-size:36px;
+   background-color:black;
+ }
+
+ .info {
+   color:White;
+   font-size:26px;
+   width: 800px;
+   background-color:black;
+ }
+
+body {
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/8/81/Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #F5D8A7;
+  margin:0;
+}
+
+header {
+  height:0px;
+  margin: 0px;
+}
+
+.headimg {
+  margin-top:0;
+  width:100%;
+  height:300px;
+}
+
+ul {
+margin-top: 180px;
+list-style-type: none;
+margin: 50;
+padding: 0;
+background-color: #333;
+}
+
+.nav {
+   float: left;
+  position: relative;
+  top:0px;
+  left:0px;
+  right:0px;
+ }
+
+ .nav a {
+   display:block;
+   color: white;
+   text-align: center;
+   padding: 12px 20px;
+   text-decoration: none;
+
+ }
+
+ .nav a:hover {
+   background-color: #111;
+ }
