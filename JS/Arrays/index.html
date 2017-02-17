@@ -7,7 +7,20 @@
   </head>
   <body>
 
-    <button onclick="skriv()">Trykk gut</button>
+    Legg inn:<input type="text" id="legg"> <br>
+
+    <button onclick="skriv()">Vis</button>
+
+    <button onclick="bil()"> Legg til </button>
+
+    <form>
+  <input type="radio" name="rm" id="Merke" value="merke" checked> Bil Merke<br>
+  <input type="radio" name="rm" id="Modell" value="modell"> Bil Modell<br>
+  <input type="radio" name="rm" id="Gammel" value="år"> Års Modell<br>
+</form>
+
+
+    <div id="Endring"></div>
 
     <div id="huck"></div>
 
