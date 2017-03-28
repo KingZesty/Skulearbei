@@ -44,7 +44,8 @@ header {
 }
 
 ul {
-margin-top: 180px;
+  width:100%;
+margin-top: 0;
 list-style-type: none;
 margin: 50;
 padding: 0;
