@@ -7,10 +7,26 @@
     <link rel="stylesheet" type="text/css" href="Styles.css">
   </head>
   <body>
-  <center>  <div id="value">Manni: </div> </center>
-    <button class ="button" id="Manni" onclick="money()">Mining</button> <div id="value"></div>
-    <button class ="upgrades" id="klikk" onclick="upgrade1()"> Oppgrader pickaxe </br> <span id="dolla"></span></button>
+  <center>  <p>  Dollar: <span id="cookies">0</span>
+                <br>
+                  Homeless: <span id="homeless">0</span> Worker: <span id="worker">0</span> Trader: <span id="trader">0</span> Robot: <span id="robot">0</span>
+                  <br>
+                  Ore per klikk: <span id="oppgrader">1</span></p> </center>
+    <button class ="button" id="Manni" onclick="cookieClick(1)">Mining</button> <div id="value"></div><br>
+    <button class ="upgrades" id="klikk" onclick="upgrade1()"> Oppgrader pickaxe <br> <span id="kjop">100</span>$</button>
+    <button class ="upgrades" id="miner" onclick="buyRobot()"> Robot Miner <br> <span id="RobotCost">75</span>$</button><br>
 
+
+    <button class ="upgrades" id="miner" onclick="buyHomeless()"> Homeless miner <br> <span id="HomelessCost">10</span>$</button>
+    <button class ="upgrades" id="miner" onclick="buyCoal()"> Coal miner <br> <span id="CoalCost">150</span>$</button><br>
+
+
+    <button class ="upgrades" id="miner" onclick="buyWorker()"> Working class miner <br> <span id="WorkerCost">20</span>$</button>
+    <button class ="upgrades" id="miner" onclick="buyGold()"> Gold miner <br> <span id="GoldCost">250</span>$</button><br>
+
+
+    <button class ="upgrades" id="miner" onclick="buyTrader()"> Slave Trader <br> <span id="TraderCost">50</span>$</button>
+    <button class ="upgrades" id="miner" onclick="buyDia()"> Diamond miner <br> <span id="DiaCost">500</span>$</button><br>
 
 
   </body>

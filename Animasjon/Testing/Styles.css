@@ -1,0 +1,19 @@
+ #boks {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: lel;
+    animation-duration: 4s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes lel {
+    0%   {background-color:pink; left:0px; top:0px;}
+    25%  {background-color:yellow; left:900px; top:0px;}
+    50%  {background-color:blue; left:900px; top:500px;}
+    75%  {background-color:purple; left:0px; top:500px;}
+    100% {background-color:red; left:0px; top:0px;}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    #boks {
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+        position: relative;
+        animation-name: frem-og-tilbake;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+    @keyframes frem-og-tilbake {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+          background-color: #59DB0E;
+          left:500px;
+          top: 0px;
+        }
+        50% {
+          background-color: red;
+          top: 500px;
+          left: 500px;
+        }
+        75% {
+          background-color: yellow;
+          left: 0px;
+          top: 500px;
+        }
+        100% {
+            top: 0px;
+            left: 0px;
+        }
+    }
+</style>
+</head>
+<body>
+    <div id="boks"></div>
+</body>
+</html>

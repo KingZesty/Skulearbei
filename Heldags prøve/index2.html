@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html> <!-- starter Html taggen -->
+  <head>
+    <meta charset="utf-8">
+    <title>Dyrequiz</title>
+    <script src="javascript2.js"></script> <!-- viser til scriptet -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Dyrequiz</h1>
+    <img src="bilder/husdyr.jpg" height="400px" usemap="#quiz"> <!-- viser bilde -->
+    <map name="quiz"> <!-- lager bilde -->
+    <area shape="circle" coords="165,64,70" alt="gris" onclick="feil(), playSound()"/>
+    <area shape="circle" coords="530,96,100" alt="okse" onclick="feil(), playSound()"/>
+    <area shape="circle" coords="200,260,100" alt="ku" onclick="riktig(), playSound2()"/>
+    <area shape="circle" coords="546,317,60" alt="kylling" onclick="feil(), playSound()"/>
+  </map> <!-- lager en trykkbar area som du kan trykke på -->
+
+  <div id="svar"></div> <!-- skriver ut teksten -->
+
+  <nav>
+        <ul> <!-- liste over alle sidene -->
+          <li class="nav" ><a href="index.html"> Måle-enheter</a></li>
+          <li class="nav"><a href="index2.html"> Dyrequiz</a></li>
+          <li class="nav"><a href="index3.html"> Værmåler</a></li>
+          <li class="nav"><a href="" target="_blank"> <span id="rip">WIN FREE IPHONE!!! CLICK HERE!!!</span></a></li>
+      </ul>
+    </nav>
+ </ul>
+
+  </body>
+</html> <!-- slutter html taggen og dokumentet -->

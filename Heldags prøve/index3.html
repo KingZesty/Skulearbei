@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vær</title>
+    <script src="javascript3.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script> <!-- script til diagramet -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1> Vær app</h1>
+    Vinteren:
+    <select id="aar"> <!-- Lager en drop-down meny som lar brukeren velge år -->
+     <option value="2016/2017" selected="selected"> 2016/2017</option>
+     <option value="2015/2016"> 2015/2016 </option>
+     <option value="2014/2015"> 2014/2015</option>
+     <option value="2013/2014"> 2013/2014</option>
+     <option value="2012/2013"> 2012/2013</option>
+     <option value="2011/2012"> 2011/2012</option>
+     <option value="2010/2011"> 2010/2011</option>
+   </select> <!-- Ender drop-down menyen -->
+   <br>
+   Gjennomsnitts:
+   <select id="mal"> <!-- Lager en drop-down meny som lar brukeren velge nedbør eller temperatur -->
+    <option value="temperatur" selected="selected"> Temperatur</option>
+    <option value="nedbor"> Nedbør </option>
+  </select> <!-- Ender drop-down menyen -->
+<br>
+  <button type="button" onclick="velg()">Velg</button> <!-- knapp til å utføre handlingen -->
+  <br>
+
+  <div id="returner"></div> <!-- diven som gir svaret -->
+
+  <div id="statistikk" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div> <!-- lager diagramet -->
+
+  <nav>
+        <ul> <!-- liste over alle sidene -->
+          <li class="nav" ><a href="index.html"> Måle-enheter</a></li>
+          <li class="nav"><a href="index2.html"> Dyrequiz</a></li>
+          <li class="nav"><a href="index3.html"> Værmåler</a></li>
+          <li class="nav"><a href="" target="_blank"> <span id="rip">WIN FREE IPHONE!!! CLICK HERE!!!</span></a></li>
+      </ul>
+    </nav>
+ </ul>
+
+  </body>
+</html>

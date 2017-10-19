@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Værdata</title>
+  </head>
+  <body>
+    <h1>Værdata</h1>
+    <p>Periode:
+    <select id="periode">
+    </select><br>
+    Værtype: <input type="radio" name="vaertype" value="temperatur" checked> temperatur
+    <input type="radio" name="vaertype" value="nedbor"> nedbør</p>
+
+    <p><input type="button" value="Vis værdata" onclick="visVaerdata()">
+      <input type="button" value="Vis diagram" onclick="visDiagram()"></p>
+
+      <div id="resultat"></div>
+
+      <script src="vaerdata.js"></script>
+  </body>
+</html>

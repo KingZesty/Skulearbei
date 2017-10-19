@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Heldags prøve</title>
+    <script type="text/javascript" src="javascript.js"> </script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+ <h1> Måle enhet converter </h1>
+ <input id="value" type="text" size="5">
+
+ <form id="velg">
+  <input id="ounce" type="radio" name="malenhet" value="ounce" checked> ounce<br>
+  <input id="cup" type="radio" name="malenhet" value="cup"> cup<br>
+  <input id="pint" type="radio" name="malenhet" value="pint"> pint<br>
+  <input id="quart" type="radio" name="malenhet" value="quart"> quart<br>
+  <input id="gallon" type="radio" name="malenhet" value="gallon"> gallon
+</form>
+
+  <br>
+ <button type="button" onclick="regnUt()">Regn Ut</button>
+
+ <div id="skrivut"></div>
+
+</body>
+</html>
